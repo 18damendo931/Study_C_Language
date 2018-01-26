@@ -18,6 +18,8 @@ int main(void){
     printf("変数pyの値 = %d\n", py);
     printf("変数pxの参照先の値 = %d\n", *px);
     printf("変数pyの参照先の値 = %d\n", *py);
-
+	printf("変数pxのアドレス = %d\n", &px);
+    printf("変数pyのアドレス = %d\n", &py);
+	
     return 0;
 }
